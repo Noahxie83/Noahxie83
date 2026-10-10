@@ -65,3 +65,10 @@ body[data-language="en"] .contact h2{font-size:35px}
 @media(max-width:1024px){.research{gap:45px}.research h2{font-size:35px}.research-statement{font-size:16px}.two-columns{gap:40px}.header nav{gap:24px}.hero .hero-description{font-size:22px}}
 @media(max-width:767px){.hero .hero-description{font-size:22px}.hero-note{font-size:12px;margin-top:13px}.research{grid-template-columns:1fr;gap:29px;padding-block:38px 42px}.research h2{font-size:33px}.research-statement{font-size:14px;line-height:1.95}.research-topics{margin-top:18px;font-size:11px}.mentor{margin-top:22px;padding-top:18px}.mentor-name{font-size:17px}.mentor-name span{font-size:11px}.two-columns{grid-template-columns:1fr;gap:28px}.two-columns p{min-height:0}.repository-row{grid-template-columns:25px 1fr;gap:13px;padding-block:21px}.repository-row>a{grid-column:2;margin-top:1px;justify-self:start;font-size:11px}.repository-row h3{font-size:19px}.repository-row p{font-size:12px}.repository-number{font-size:10px}.compact-projects{padding-block:40px}.header nav{gap:16px}.header nav a:last-child{display:none}}
 @media(max-width:360px){.mentor{align-items:start;flex-direction:column;gap:13px}.mentor>a{margin-bottom:0}.hero .hero-description{font-size:20px}}
+
+/* University contact comes first; the personal address stays available. */
+.contact .contact-label{font-family:'Geist Mono',monospace;font-size:10px;line-height:1.5;letter-spacing:.05em;margin:0 0 7px;color:var(--muted)}
+.personal-email-link{display:block;font-size:13px;line-height:1.8;margin-top:12px;color:var(--muted)}
+.personal-email-label{font-size:10px;margin-right:9px}.personal-email-link>span[aria-hidden]{margin-left:7px}
+.personal-email-link:hover{color:var(--accent)}
+@media(max-width:767px){.contact .email-link{font-size:clamp(18px,5.6vw,23px);letter-spacing:-.6px}.contact .email-link>span{font-size:16px;margin-left:7px}.personal-email-link{font-size:12px}}

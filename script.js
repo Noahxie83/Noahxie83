@@ -31,15 +31,16 @@
     document.querySelectorAll('.reveal').forEach(element=>observer.observe(element));
   }
   const copy=document.getElementById('copy-email');
+  const contactEmail=document.querySelector('.email-link').getAttribute('href').slice('mailto:'.length);
   const status=document.getElementById('copy-status');
   let timer;
   copy.addEventListener('click',async()=>{
     copy.disabled=true;copy.textContent=english?'Copying…':'正在复制…';
     try{
-      if(navigator.clipboard&&window.isSecureContext){await navigator.clipboard.writeText('noahxie83@gmail.com');}
-      else{const field=document.createElement('textarea');field.value='noahxie83@gmail.com';field.style.position='fixed';field.style.opacity='0';document.body.append(field);field.select();const ok=document.execCommand('copy');field.remove();if(!ok)throw new Error('Clipboard unavailable');}
-      status.textContent=english?'Email copied':'邮箱已复制';
+      if(navigator.clipboard&&window.isSecureContext){await navigator.clipboard.writeText(contactEmail);}
+      else{const field=document.createElement('textarea');field.value=contactEmail;field.style.position='fixed';field.style.opacity='0';document.body.append(field);field.select();const ok=document.execCommand('copy');field.remove();if(!ok)throw new Error('Clipboard unavailable');}
+      status.textContent=english?'University email copied':'学校邮箱已复制';
     }catch(error){status.textContent=english?'Select the email address above to copy it.':'请直接选中上方邮箱复制。';}
-    finally{copy.disabled=false;copy.textContent=english?'Copy email':'复制邮箱';clearTimeout(timer);timer=setTimeout(()=>{status.textContent='';},5000);}
+    finally{copy.disabled=false;copy.textContent=english?'Copy university email':'复制学校邮箱';clearTimeout(timer);timer=setTimeout(()=>{status.textContent='';},5000);}
   });
 })();
