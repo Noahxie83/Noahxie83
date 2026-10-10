@@ -1,12 +1,12 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile-light.png">
-  <img alt="Noah Xie — Generative AI and AI Agents. Second-year CS undergraduate at Xi'an Jiaotong University, studying under the guidance of Xiangyong Cao." src="assets/profile-light.png" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-research-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile-research-light.png">
+  <img alt="Noah Xie — Generative AI and AI Agents. Second-year CS undergraduate at Xi'an Jiaotong University, studying under the guidance of Xiangyong Cao." src="assets/profile-research-light.png" width="100%">
 </picture>
 
 <p align="center">
   <a href="https://noahxie83.github.io/Noahxie83/"><strong>Personal website</strong></a> &nbsp; / &nbsp;
-  <a href="https://noahxie83.github.io/Noahxie83/personal-profile.pdf">Profile cover</a> &nbsp; / &nbsp;
+  <a href="https://noahxie83.github.io/Noahxie83/personal-profile.pdf?v=ai-study">Profile cover</a> &nbsp; / &nbsp;
   <a href="https://noahxie83.github.io/Noahxie83/zh.html">中文简介</a> &nbsp; / &nbsp;
   <a href="https://orcid.org/0009-0007-3991-7640">ORCID</a>
 </p>
@@ -52,6 +52,6 @@ I have worked through Li Mu's *Dive into Deep Learning* (PyTorch) and continue t
 
 我目前跟随 **[曹相湧老师](https://gr.xjtu.edu.cn/caoxiangyong/)** 学习 **生成式 AI 与 AI Agent**。这个主页主要用于自我介绍，分享正在学习和探索的方向，以及学习笔记与实践。
 
-[中文版个人主页](https://noahxie83.github.io/Noahxie83/zh.html) &nbsp; / &nbsp; [中文版简介封面](https://noahxie83.github.io/Noahxie83/personal-profile-zh.pdf)
+[中文版个人主页](https://noahxie83.github.io/Noahxie83/zh.html) &nbsp; / &nbsp; [中文版简介封面](https://noahxie83.github.io/Noahxie83/personal-profile-zh.pdf?v=ai-study)
 
 </details>
