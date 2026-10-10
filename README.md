@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.png">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile-light.png">
-  <img alt="Noah Xie, second-year Computer Science and Technology undergraduate at Xi'an Jiaotong University" src="assets/profile-light.png" width="100%">
+  <img alt="Noah Xie — Generative AI and AI Agents. Second-year CS undergraduate at Xi'an Jiaotong University, studying under the guidance of Xiangyong Cao." src="assets/profile-light.png" width="100%">
 </picture>
 
 <p align="center">
@@ -13,45 +13,33 @@
 
 ### Hello, I'm Noah
 
-I'm a **second-year undergraduate in Computer Science and Technology at Xi'an Jiaotong University**.
+I'm a **second-year undergraduate in Computer Science and Technology at Xi'an Jiaotong University**. My Chinese name is 谢子诺.
 
-I keep a record of what I learn and build small tools around the way I read. My current interests include machine learning, the Zotero reading experience and practical workflows for understanding research papers.
+### Current focus · Generative AI & AI Agents
 
-### Selected projects
+I am currently studying **generative AI and AI agents** under the guidance of **[Xiangyong Cao (曹相湧)](https://gr.xjtu.edu.cn/caoxiangyong/)** at Xi'an Jiaotong University.
 
-<a href="https://github.com/Noahxie83/zotero-local-dictionary">
-  <img src="https://raw.githubusercontent.com/Noahxie83/zotero-local-dictionary/main/docs/assets/cover.jpg" alt="Local Dictionary project cover" width="100%">
-</a>
+This profile introduces what I am learning and exploring, alongside the notes and work I share along the way.
 
-**[Local Dictionary](https://github.com/Noahxie83/zotero-local-dictionary)** · A local dictionary plugin for Zotero
+### Learning & practice
 
-Look up words directly in the PDF reader with MDX, StarDict and DSL dictionaries. Keep dictionary formatting, local pronunciation, vocabulary notes and the context of the paper.
-
-[Try the demo](https://noahxie83.github.io/zotero-local-dictionary/) &nbsp; / &nbsp; [Installation & guide](https://github.com/Noahxie83/zotero-local-dictionary#快速开始)
-
----
-
-<a href="https://github.com/Noahxie83/staged-paper-reading">
-  <img src="https://raw.githubusercontent.com/Noahxie83/staged-paper-reading/main/assets/cover.png" alt="Staged Paper Reading project cover" width="100%">
-</a>
-
-**[Staged Paper Reading](https://github.com/Noahxie83/staged-paper-reading)** · A four-stage reading workflow
-
-Read model and algorithm papers from abstract and conclusions to figures and methods, then turn the reading into concise notes. Adapted from Academic Research Skills, with the original attribution and MIT license preserved.
-
-[Reading workflow](https://github.com/Noahxie83/staged-paper-reading#workflow) &nbsp; / &nbsp; [Sample notes](https://github.com/Noahxie83/staged-paper-reading/blob/main/examples/attention-is-all-you-need.md)
-
-### Learning archive
-
-**[Learning](https://github.com/Noahxie83/Learning)** collects my notes, exercises and reading records.
+**[Learning](https://github.com/Noahxie83/Learning)** is my public archive of course notes, code exercises and paper notes.
 
 | Area | Explore |
 | --- | --- |
 | Computer science | [C/C++, Python, algorithms and discrete mathematics](https://github.com/Noahxie83/Learning/tree/main/CS%20Learning) |
-| Machine learning | [Course notes, deep learning exercises and mathematical foundations](https://github.com/Noahxie83/Learning/tree/main/AI%20learning) |
-| Paper reading | [Reading notes and exploratory records](https://github.com/Noahxie83/Learning/tree/main/Paper) |
+| Machine learning & deep learning | [Course notes, code exercises and mathematical foundations](https://github.com/Noahxie83/Learning/tree/main/AI%20learning) |
+| Paper notes | [Reading records](https://github.com/Noahxie83/Learning/tree/main/Paper) |
 
-I have worked through Li Mu's *Dive into Deep Learning* (PyTorch) and continue to build my foundations. Archived course materials do not imply course certification; third-party materials retain their original sources.
+I have worked through Li Mu's *Dive into Deep Learning* (PyTorch) and continue to build my foundations.
+
+<details>
+<summary>Other open-source projects</summary>
+
+- **[Local Dictionary](https://github.com/Noahxie83/zotero-local-dictionary)** — A Zotero plugin for local dictionary lookup inside the PDF reader, supporting MDX, StarDict and DSL. [Try the demo](https://noahxie83.github.io/zotero-local-dictionary/).
+- **[Staged Paper Reading](https://github.com/Noahxie83/staged-paper-reading)** — A four-stage workflow for model and algorithm papers. Adapted from Academic Research Skills, with attribution and the original MIT license preserved.
+
+</details>
 
 ### Get in touch
 
@@ -60,9 +48,9 @@ I have worked through Li Mu's *Dive into Deep Learning* (PyTorch) and continue t
 <details>
 <summary>中文简介</summary>
 
-你好，我是谢子诺，英文名 Noah Xie。西安交通大学计算机科学与技术专业，本科二年级在读。
+你好，我是谢子诺，英文名 **Noah Xie**。西安交通大学计算机科学与技术专业，本科二年级在读。
 
-我用 GitHub 记录学习过程，也展示围绕文献阅读与知识整理做的开源工具。这个主页主要用于自我介绍、分享学习记录与项目。
+我目前跟随 **[曹相湧老师](https://gr.xjtu.edu.cn/caoxiangyong/)** 学习 **生成式 AI 与 AI Agent**。这个主页主要用于自我介绍，分享正在学习和探索的方向，以及学习笔记与实践。
 
 [中文版个人主页](https://noahxie83.github.io/Noahxie83/zh.html) &nbsp; / &nbsp; [中文版简介封面](https://noahxie83.github.io/Noahxie83/personal-profile-zh.pdf)
 
